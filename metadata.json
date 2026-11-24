@@ -1,0 +1,8 @@
+{
+  "name": "Remix PrintCare – Printing Shop Customer Management System",
+  "description": "Complete native Android (Kotlin + Material Design + Firebase) project source code, interactive UI preview, Firestore dummy data, and 21-chapter college mini-project report for PrintCare.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

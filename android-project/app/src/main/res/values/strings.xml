@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrintCare</string>
+    <string name="app_subtitle">Printing Shop Customer Management</string>
+
+    <!-- Login & Sign Up -->
+    <string name="login_title">Welcome to PrintCare</string>
+    <string name="login_subtitle">Sign in to manage printing shop customers and records</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_staff_name">Staff Full Name</string>
+    <string name="action_login">Sign In</string>
+    <string name="action_sign_up">Create Account</string>
+    <string name="prompt_no_account">New to PrintCare? Create an account</string>
+    <string name="prompt_have_account">Already have an account? Sign In</string>
+    <string name="signup_title">Create Staff Account</string>
+    <string name="signup_subtitle">Register printing shop staff credentials</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_user_format">Welcome back, %1$s</string>
+    <string name="dashboard_tagline">Manage customer registrations, contact details, and print job directories.</string>
+    <string name="label_registered_customers">Total Registered Customers</string>
+    <string name="label_quick_actions">Quick Actions</string>
+    <string name="action_register_customer">Register New Customer</string>
+    <string name="desc_register_customer">Add a new customer profile with phone, DOB, and address</string>
+    <string name="action_view_customers">View Registered Customers</string>
+    <string name="desc_view_customers">Browse, search, and inspect customer records in Firestore</string>
+    <string name="action_logout">Logout</string>
+    <string name="logout_dialog_title">Confirm Logout</string>
+    <string name="logout_dialog_message">Are you sure you want to sign out of PrintCare?</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Customer Registration -->
+    <string name="title_register_customer">Register Customer</string>
+    <string name="hint_customer_name">Full Name</string>
+    <string name="hint_phone">Phone Number (10-digit Indian Mobile)</string>
+    <string name="hint_dob">Date of Birth (DD/MM/YYYY)</string>
+    <string name="hint_address">Full Address</string>
+    <string name="action_save_customer">Save Customer</string>
+    <string name="action_clear_form">Clear Form</string>
+    <string name="customer_saved_title">Customer Registered</string>
+    <string name="customer_saved_message">%1$s has been saved to Cloud Firestore.\n\nCustomer ID: %2$s</string>
+    <string name="action_add_another">Add Another</string>
+    <string name="action_view_customers_short">View List</string>
+
+    <!-- Customer List & Details -->
+    <string name="title_customer_list">Registered Customers</string>
+    <string name="hint_search_customers">Search by customer name or phone…</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="empty_customers_title">No Customers Registered Yet</string>
+    <string name="empty_customers_subtitle">Tap below to add your first printing shop customer record.</string>
+    <string name="empty_search_title">No Matching Customers</string>
+    <string name="empty_search_subtitle">Try searching with a different name or 10-digit phone number.</string>
+    <string name="action_retry">Retry</string>
+    <string name="title_customer_details">Customer Details</string>
+    <string name="action_call">Call Customer</string>
+    <string name="action_email">Send Email</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_dob">Date of Birth</string>
+    <string name="label_address">Address</string>
+    <string name="label_created_at">Registered On</string>
+    <string name="label_not_available">Recently Added</string>
+
+    <plurals name="customer_count_format">
+        <item quantity="one">%d customer</item>
+        <item quantity="other">%d customers</item>
+    </plurals>
+</resources>

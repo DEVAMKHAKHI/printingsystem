@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PrintCare Professional Blue, White & Subtle Grey Palette -->
+    <color name="printcare_blue_primary">#1D4ED8</color>
+    <color name="printcare_blue_dark">#1E3A8A</color>
+    <color name="printcare_blue_light">#EFF6FF</color>
+    <color name="printcare_blue_tint">#DBEAFE</color>
+
+    <color name="printcare_surface">#FFFFFF</color>
+    <color name="printcare_background">#F8FAFC</color>
+    <color name="printcare_border">#E2E8F0</color>
+
+    <color name="printcare_text_primary">#0F172A</color>
+    <color name="printcare_text_secondary">#475569</color>
+    <color name="printcare_text_muted">#64748B</color>
+
+    <color name="printcare_success">#15803D</color>
+    <color name="printcare_error">#DC2626</color>
+    <color name="printcare_white">#FFFFFF</color>
+</resources>
